@@ -1,0 +1,9 @@
+@echo off
+echo ===============================
+echo System Shutdown
+echo ===============================
+echo Your computer will shutdown in 1 second...
+timeout /t 1 /nobreak >nul
+echo Shutting down the computer now...
+shutdown /s /f /t 0
+exit
